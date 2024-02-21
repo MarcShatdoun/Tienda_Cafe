@@ -42,6 +42,31 @@ section.espacio{
     font-size: 18px;
 }
 
+/*--nostros--*/
+
+.mapaCafe{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*---Tienda--*/
+
+section.catalogoC{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+section.catalogoC article{
+    width: 500px;
+}
+
+section.catalogoC article img{
+    width: 100%;
+}
+
 /*--------------- FOOTER ------------- */
 
 footer{
