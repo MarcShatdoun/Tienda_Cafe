@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+p{
+    font-size: 24px;
+}
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+section.espacio{
+    margin: 30px 0;
+}
+
+.diagoF{
+    display: flex;
+    justify-content: center;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 140px;
+
+}
+.diagoF p{
+    word-break: break-all;
+}
+
+
+.autorReview{
+    display: flex;
+    justify-content: end;
+    color: red;
+    font-size: 18px;
+}
+
+/*--------------- FOOTER ------------- */
+
+footer{
+    background-color: #053617;
+    padding: 45px;
+}
+section h2{
+    display: none;
+}
+
+footer section{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+footer img{
+    width: 40px;
+}
+.redesSociales{
+    display: flex;
+    gap: 40px;
+}
+
+footer p, .infoWeb ul li, a{
+    color: white;
+}
+
+.infoWeb{
+    display: flex;
+    line-height: 30px;
+    gap: 85px;
+
+}
+.contactoR{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.infoWeb ul > :first-child{
+    font-weight: bold;
+}
+
+
+
+
+
+/*-------- Mediaquery --------*/
+
+@media(max-width: 620px){
+    .diagoF{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        margin: 0 auto 15px auto;
+        gap: 35px;
+    }
+
+    .infoWeb{
+        display: none;
+    }
+}
